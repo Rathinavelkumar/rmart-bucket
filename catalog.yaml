@@ -1,0 +1,34 @@
+# Sample product catalog for rmart
+general:
+  categories:
+    - Electronics
+    - Books
+    - Clothing
+products:
+  - id: 1
+    name: "Wireless Headphones"
+    category: "Electronics"
+    actual_price: 2999
+    discount: 20
+    price: 2399
+    image: "headphones.jpg"
+    description: "High-quality wireless headphones with noise cancellation."
+    featured: true
+  - id: 2
+    name: "Python Programming Book"
+    category: "Books"
+    actual_price: 899
+    discount: 33
+    price: 599
+    image: "python_book.jpg"
+    description: "Comprehensive guide to Python programming for all levels."
+    featured: true
+  - id: 3
+    name: "Men's T-Shirt"
+    category: "Clothing"
+    actual_price: 799
+    discount: 25
+    price: 599
+    image: "tshirt.jpg"
+    description: "100% cotton, comfortable and stylish."
+    featured: true
